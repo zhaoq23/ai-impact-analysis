@@ -26,9 +26,11 @@
 7. [Actionable Recommendations](#actionable-recommendations)
      
 # 1. Problem Statement
+
 As AI rapidly transforms key industries, public and institutional perceptions play a crucial role in shaping its adoption and regulation. Yet, current understanding of how AI is portrayed in media—especially in terms of sentiment and topic focus—remains fragmented and anecdotal. This project addresses that gap by systematically analyzing over 160,000 AI-related articles using advanced NLP methods, revealing how sentiment varies across time, sectors, technologies, and regions. The goal is to provide actionable insights for policymakers, businesses, and researchers navigating the evolving AI landscape.
 
 # 2. Executive Summary
+
 🔧 **Data Processing and Methodology**
 - Initial dataset of ~200,000 articles was systematically cleaned and filtered to 167,763 relevant samples through a three-stage process incorporating linguistic analysis, feature engineering, and topic modeling
 - Implemented a sophisticated sentiment analysis pipeline, starting with VADER analysis for baseline establishment, followed by data enhancement through manual annotation and BLOOM model labeling, then advanced model fine-tuning with RoBERTa and transformer ensemble architecture, ultimately achieving 82% macro-F1 score through class weight and learning rate optimization.
