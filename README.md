@@ -9,20 +9,20 @@
 4. [Sentiment Analysis](#sentiment-analysis)<br>
 	4.1. [Steps](#steps)<br>
 	4.2. [Results](#results)<br>
-  4.3. [Sentiment Analysis Over Time](#sentiment-analysis-over-time)<br>
-  4.4. [Sentiment Analysis with Keyword Pattern](#sentiment-analysis-with-keyword-pattern)<br>
+  	4.3. [Sentiment Analysis Over Time](#sentiment-analysis-over-time)<br>
+  	4.4. [Sentiment Analysis with Keyword Pattern](#sentiment-analysis-with-keyword-pattern)<br>
 5. [Topic Detection (Based on LDA)](#toptic-detection-based-on-lda)<br>
-  5.1 [Positive Sentiment](#positive-sentiment)<br>
-  5.2 [Negative Sentiment](#negative-sentiment)<br>
+  	5.1. [Positive Sentiment](#positive-sentiment)<br>
+  	5.2. [Negative Sentiment](#negative-sentiment)<br>
 6. [Entity Analysis (NER with spaCy)](#entity-analysis-ner-with-spacy)<br>
-  6.1  [Industry Trends](#industry-trends)<br>
-  6.2  [Organization Trends](#organization-trends)<br>
-  6.3  [Technology Trends](#technology-trends)<br>
-  6.4  [Application Trends](#application-trends)<br>
-  6.5  [Platform Trends](#platform-trends)<br>
-  6.6  [Profession Trends](#profession-trends)<br>
-  6.7  [People Trends](#people-trends)<br>
-  6.8  [Location Trends](#location-trends)<br>
+  	6.1. [Industry Trends](#industry-trends)<br>
+  	6.2. [Organization Trends](#organization-trends)<br>
+	6.3. [Technology Trends](#technology-trends)<br>
+  	6.4. [Application Trends](#application-trends)<br>
+  	6.5. [Platform Trends](#platform-trends)<br>
+  	6.6. [Profession Trends](#profession-trends)<br>
+  	6.7. [People Trends](#people-trends)<br>
+  	6.8. [Location Trends](#location-trends)<br>
 7. [Actionable Recommendations](#actionable-recommendations)<br>
 
      
