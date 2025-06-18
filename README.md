@@ -30,3 +30,32 @@ As AI rapidly transforms key industries, public and institutional perceptions pl
 - Tech giants (Microsoft, Google) dominate positive coverage while facing increased scrutiny over AI monopoly concerns
 - Regulatory bodies, especially in the EU, emerge prominently in negative coverage, indicating growing oversight focus
 
+# Article Clean-up and Filtering
+To ensure the data quality while focusing on business and technology relevant content for efficient analysis, I apply a three-step systemic approach:
+**Step 1: Initial Data Cleaning (180,564 samples left)**
+- Cleaned various web elements and formatting residuals 
+- Removed irrelevant artifacts (URLs, emails, non-ASCII characters) 
+- Applied length-based filtering to remove outliers 
+- Retained 180,564 articles after initial cleaning
+
+**Step 2: Feature Extraction and Engineering**
+- Performed linguistic analysis: 
+- Basic text metrics (length, sentence structure)
+- Grammatical analysis (parts of speech)
+- Entity recognition (companies, products, locations)
+- Created composite features for: 
+- Technology density, Business relevance, Industry impact
+- Applied domain-specific weighting system
+
+**Step 3: Topic Modeling and Refinement (167,763 samples left)**
+- Conducted topic analysis for major themes
+- Evaluated and optimized topic count
+- Selected 8 distinct topics 
+- Applied 0.55 probability threshold and 90% retention rate
+- Topic distribution after refinement: Topic 0 -11.1%, Topic 1-6.8%; Topic 2 -15.3%; Topic 3 - 20.6%; Topic 4 - 0.3%; Topic 5 - 18.3%; Topic 6 - 7.6%; Topic 7 - 20.1%
+
+![image](https://github.com/user-attachments/assets/a0a71e84-fc5e-49ad-afdd-02b3080a189a)
+
+
+
+
